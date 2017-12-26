@@ -1,0 +1,2 @@
+# TeredoAutoSwitch
+自动选择teredo服务器linux版
