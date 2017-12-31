@@ -142,7 +142,7 @@ int main(int argc,char *argv[])
 	}
 	icmp_free(icmp);
 
-	if(i != 0)
+	if(i != 0 && argv[1] && (strcmp(argv[1],"-m") == 0))
 	{
 		qsort(save_lists,i,sizeof(DATA),cmp);
 		modify_conf(&save_lists[0]);
